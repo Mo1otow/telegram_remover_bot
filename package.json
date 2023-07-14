@@ -1,7 +1,7 @@
 {
   "name": "remover_bot",
   "version": "1.0.0",
-  "main": "api/webhook.js",
+  "main": "index.js",
   "author": "Kirill Beznisko",
   "license": "MIT",
   "type": "module",
