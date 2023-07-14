@@ -5,12 +5,13 @@
   "author": "Kirill Beznisko",
   "license": "MIT",
   "type": "module",
+  "scripts": {
+    "start": "nodemon"
+  },
   "dependencies": {
     "@supabase/supabase-js": "^2.26.0",
     "dotenv": "^16.3.1",
-    "telegraf": "^4.12.2"
-  },
-  "devDependencies": {
+    "telegraf": "^4.12.2",
     "nodemon": "^3.0.1"
   }
 }
