@@ -1,13 +1,10 @@
 {
   "name": "remover_bot",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "api/webhook.js",
   "author": "Kirill Beznisko",
   "license": "MIT",
   "type": "module",
-  "scripts": {
-    "build": "echo build"
-  },
   "dependencies": {
     "@supabase/supabase-js": "^2.26.0",
     "dotenv": "^16.3.1",
