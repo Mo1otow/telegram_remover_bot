@@ -4,7 +4,9 @@ import remove from "./src/remove.js";
 
 const bot = new Telegraf(process.env.BOT_TOKEN);
 
-bot.use(remove)
+bot.use(remove);
+
+bot.start((ctx) => ctx.reply('Welcome!'));
 
 bot.launch().then(() => {
     console.log('Bot start!')
