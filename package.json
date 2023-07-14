@@ -6,7 +6,7 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "build": "nodemon index.js"
+    "build": "echo build"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.26.0",
